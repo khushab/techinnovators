@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Tech Innovators
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tech Innovators is a modern web application designed to provide state-of-the-art software solutions that streamline business processes, enhance productivity, and drive innovation. This project includes a responsive landing page built with React and styled-components.
 
-## Available Scripts
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
+- [About Us](#about-us)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Responsive Design:** Ensures the application looks great on all devices.
+- **Modern UI:** Utilizes clean and modern design principles.
+- **Interactive Components:** Built using React state and props for interactivity.
+- **Styled Components:** Uses styled-components for styling.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** A JavaScript library for building user interfaces.
+- **styled-components:** A library for styling React components using tagged template literals.
+- **JavaScript:** The programming language used to build the application.
+- **HTML5:** The markup language used for structuring the web content.
+- **CSS3:** The style sheet language used for presentation.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Before you begin, ensure you have met the following requirements:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- You have node verion 20 or above installed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+    ```bash
+    git clone git@github.com:khushab/techinnovators.git
+    cd techinnovators
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    yarn install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Running the Project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the project locally, use the following command:
 
-## Learn More
+```bash
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will start the development server and open the application in your default web browser. If it doesn’t open automatically, you can access it by navigating to http://localhost:3000 in your web browser.
